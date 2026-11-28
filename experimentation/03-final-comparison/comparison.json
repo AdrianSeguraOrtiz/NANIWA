@@ -1,0 +1,6 @@
+{
+  "individual_tools": ["dyngenie3", "swing", "bixgboost", "pfbnet", "nimce", "hstxgb", "greynet"],
+  "baselines": ["raw_mean", "mean_minmax", "mean_rank"],
+  "controls": ["exact_mean", "family_mean", "marginal_global", "joint_full", "flat_joint_global"],
+  "external_comparators": ["GENECI", "MO-GENECI", "BIO-INSIGHT"]
+}

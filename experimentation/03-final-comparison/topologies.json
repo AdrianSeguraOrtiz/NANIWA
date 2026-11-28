@@ -1,0 +1,690 @@
+{
+  "sizes": [
+    30,
+    100,
+    200
+  ],
+  "families": [
+    "ecoli",
+    "yeast",
+    "fflatt"
+  ],
+  "n_points": 21,
+  "native_min_regulators": 20,
+  "max_hub_edge_fraction": 0.4,
+  "images": {
+    "genenetweaver": {
+      "tag": "adriansegura99/simulator_genenetweaver:1.2.0",
+      "id": "sha256:1f18674847ccd2c02486fafe85184e95a617d87897f4617e3fab1d5e6bd19804"
+    },
+    "genesnake": {
+      "tag": "adriansegura99/simulator_genesnake:1.0.0",
+      "id": "sha256:067c3997697a03d5739b68c271a0fe398384713792cf7a0540e3f1f23fed02f7"
+    }
+  },
+  "phase": "final",
+  "draws": 4,
+  "max_edge_overlap": 0.5,
+  "graphs": [
+    {
+      "id": "final_ecoli_30_d1",
+      "size": 30,
+      "family": "ecoli",
+      "draw": 1,
+      "seed": 316388984,
+      "parent": "original",
+      "stride": 5,
+      "edge_sha256": "e1042f8d9335d134a827771d57dc0d05b324224b866d2e557ac012a3289c027d",
+      "files": {
+        "native/final_ecoli_30_d1-1.xml": "9141350c65b86823815dfd61ec7f780fb403a69b1c0381ad2ce10534df8a1f27",
+        "shared_signed_network.tsv": "3d5527e51ce8b843f6359cfa6d75cc7e46b5292808058072fd170305dc6cdc3d",
+        "genespider2_weighted_network.tsv": "2753b01af51a931a84231b3031f0c8d7abd14020ce91444b2b89e59ce4014351"
+      }
+    },
+    {
+      "id": "final_ecoli_30_d2",
+      "size": 30,
+      "family": "ecoli",
+      "draw": 2,
+      "seed": 693562422,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "fa36438adb2571352ee23e417e9038d7914f365a7e5d230a3be1d8f22faa736c",
+      "files": {
+        "native/final_ecoli_30_d2-1.xml": "0f48a8456ac0c268014e0c7d456c7dd8d0affceb0ebc29290ddef6cc6cad7514",
+        "shared_signed_network.tsv": "bd64126ced5ea255aaeaa145a6e47f088f708a408fd43c0d6a47fc74fc9845d0",
+        "genespider2_weighted_network.tsv": "9004d7bf629efb8cd4d4a7b43a9430181ae7a95d4c71822cccf4937dd7fa366c"
+      }
+    },
+    {
+      "id": "final_ecoli_30_d3",
+      "size": 30,
+      "family": "ecoli",
+      "draw": 3,
+      "seed": 619475325,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "25777d406ff034742ada3889643a08b04a0bc93c13fe962b05e605741d82689d",
+      "files": {
+        "native/final_ecoli_30_d3-1.xml": "3fd41c9c370e92d9846e7eb0bc77a6e23dbcc004bfc4dd5ee0b3f6084797b770",
+        "shared_signed_network.tsv": "0ed15cb69b3e2095a4443db5c60c976f93f7f8ba3e8f3292b8bbfce3074fae06",
+        "genespider2_weighted_network.tsv": "861ccd054f39d4524d499fa7951e8044d0672b33c7c33a89120748b3613e271f"
+      }
+    },
+    {
+      "id": "final_ecoli_30_d4",
+      "size": 30,
+      "family": "ecoli",
+      "draw": 4,
+      "seed": 1030510698,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "b8d97a3e608c7175338b57b059d438a8d449e7d25921807b99733b77ad2b39a2",
+      "files": {
+        "native/final_ecoli_30_d4-1.xml": "dc400abdce49b8859925fc67fdbad6912b3fcd188bad3eb948478fdc33bc216e",
+        "shared_signed_network.tsv": "2958896ba0bcca9824a2d57670ccf7d6e4bf628f3e20122e910311757ec837b9",
+        "genespider2_weighted_network.tsv": "9f308f9cc64a1af76e4f786a6a7e16a86c51d6120d9cfe469850a18df6c57642"
+      }
+    },
+    {
+      "id": "final_yeast_30_d1",
+      "size": 30,
+      "family": "yeast",
+      "draw": 1,
+      "seed": 516542717,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "f8ced4526bc1dd81b77edcd4f03da7432fe3aafa0f4ccfaf30aa458f5b533b2f",
+      "files": {
+        "native/final_yeast_30_d1-1.xml": "cf6b7a43106c8ea30845dd023c6636cec931e28edc74349fa51f155e970e8679",
+        "shared_signed_network.tsv": "a482793946620e8b27c116b69011fa0209b8d9e91e6208fd289fad323d0ae9e9",
+        "genespider2_weighted_network.tsv": "46ff135efe54fa1ac0c5beb8f74e9b5d09ad0d7f2c91eb69916203b7c4bda515"
+      }
+    },
+    {
+      "id": "final_yeast_30_d2",
+      "size": 30,
+      "family": "yeast",
+      "draw": 2,
+      "seed": 318793576,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "d772b8f7d76842c831fed597201df82e99ae95652b6a56538e5c1240c7abf97c",
+      "files": {
+        "native/final_yeast_30_d2-1.xml": "f1332d31062bee860d3c6c034b8b96ad1b71fee891566de1f5bd8303d1c0e9b7",
+        "shared_signed_network.tsv": "9120045a9be471b13817043be891b2a9adbe37dbe5742cdc086f339714188fb6",
+        "genespider2_weighted_network.tsv": "56371a1d6fb1c16d07d1c1d20cb138427472822da165fa9dea9435297cd6c985"
+      }
+    },
+    {
+      "id": "final_yeast_30_d3",
+      "size": 30,
+      "family": "yeast",
+      "draw": 3,
+      "seed": 1295603596,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "193b1177c960ada5d50574b463c761fbef0a1277c2d79a65f0e4e6d455167311",
+      "files": {
+        "native/final_yeast_30_d3-1.xml": "19b598991fe11a8631f8898c5d2eccf69880339753c0b94dcb1b84e80d688f99",
+        "shared_signed_network.tsv": "e4c8d780cacae1ea73ab9899b73a4cf0b2580c3494c24b2036ba98dbab61e0be",
+        "genespider2_weighted_network.tsv": "c3106ffd72efdd6dc00bb4ae8fd4cf8356f0072510b4b671d333b50c75fc83e4"
+      }
+    },
+    {
+      "id": "final_yeast_30_d4",
+      "size": 30,
+      "family": "yeast",
+      "draw": 4,
+      "seed": 94946417,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "11bb73548da958ea0c9ce24c7e8217072d95d214d2a49a52d9dc4d7f4d4915e8",
+      "files": {
+        "native/final_yeast_30_d4-1.xml": "2ab82d5235e9fd60597b478c4d69412998aa70b4718ca54046261923fcc5a444",
+        "shared_signed_network.tsv": "073e217d7ede653f3dcb0d148f897cd55c4f3a2cba0633c3e644b66b834a0966",
+        "genespider2_weighted_network.tsv": "9612e77af1c31a7dd583a5d3f123b65f9dfddb604d8bb4c928a3d1e98ed6e8cb"
+      }
+    },
+    {
+      "id": "final_fflatt_30_d1",
+      "size": 30,
+      "family": "fflatt",
+      "draw": 1,
+      "seed": 1419275850,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "ddcac16def9e750126a50c1b83f62a8a3f04eadba131e7b497fc9b2ba83c27f3",
+      "files": {
+        "native/final_fflatt_30_d1.xml": "a1be3614796d3d949db8c7ff359b72c9392bc74b5afdad696645c092dd433c85",
+        "shared_signed_network.tsv": "5c5049070c90fa256ee64dc8d92af5ced2ca67784347200ccd18556d15cf9d17",
+        "genespider2_weighted_network.tsv": "8217a82fa703578feaaa77adc149cf0c9f51cc46e91c5fcc86ba5cd7d26c95b9"
+      }
+    },
+    {
+      "id": "final_fflatt_30_d2",
+      "size": 30,
+      "family": "fflatt",
+      "draw": 2,
+      "seed": 785044144,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "088ecc5d94bc7ce67963c8629e4114fa64a10c20911cf83c55d581f335dd46ee",
+      "files": {
+        "native/final_fflatt_30_d2.xml": "1c2abb8db28e479ee37c110fd009d1dfea74a4d21a897caba150ffd711205336",
+        "shared_signed_network.tsv": "dfd26410e0aad237f971b7456f97fa05fc1402c25cf17c3a74ac8d2a2f6bd716",
+        "genespider2_weighted_network.tsv": "a63fed3657b45a90ab0d1e6c4d31e3f3708ac2545723df98772306d2a3a22b79"
+      }
+    },
+    {
+      "id": "final_fflatt_30_d3",
+      "size": 30,
+      "family": "fflatt",
+      "draw": 3,
+      "seed": 617751945,
+      "parent": "original",
+      "stride": 5,
+      "edge_sha256": "02c44573ba646aaefd76b9ed0120c07372407c6150b59c9b0c9d7b9c0823e398",
+      "files": {
+        "native/final_fflatt_30_d3.xml": "504c066190ca6da12e9a47a28e45f6c7b7bce8919c0f219a418e8153c8499915",
+        "shared_signed_network.tsv": "c8445184cdca90d65fbfc448b79bcba64e595aa2f006ab22c312711ba52e74af",
+        "genespider2_weighted_network.tsv": "2b2da9f638f1aacb4b63793ff820f6b6eb3959ec30cfd023751e4c205c394b9f"
+      }
+    },
+    {
+      "id": "final_fflatt_30_d4",
+      "size": 30,
+      "family": "fflatt",
+      "draw": 4,
+      "seed": 943169421,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "ac0aacf6f4f5de9016bfcd3821e7f34482f2e0dc36500becb14599efede28a7f",
+      "files": {
+        "native/final_fflatt_30_d4.xml": "de382a2f96e932bb7e3e71b11085e6e64b717a51dbcff07154359ac4691e2d10",
+        "shared_signed_network.tsv": "1241b69ecbee578ac3d3d4b071d435e606d8ff302d24195dfd60732188e34344",
+        "genespider2_weighted_network.tsv": "6c8ecdbc2b302e9cf7d48c1d63865302ba7c36c57cf03770f6a973ebadce5b9a"
+      }
+    },
+    {
+      "id": "final_ecoli_100_d1",
+      "size": 100,
+      "family": "ecoli",
+      "draw": 1,
+      "seed": 1627325484,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "1e4946bc8bcaeeacc2a1e9710b6041b8b333a380e3ce7997ca4385619542ad53",
+      "files": {
+        "native/final_ecoli_100_d1.xml": "c1315fbc223f1e53f0eef316145d042f412c635fd90530a46cfe9ac59d19d432",
+        "shared_signed_network.tsv": "0b22850c39eb8607f3ea635fe83231145c6fc3586ca2a700a662fdb089062b07",
+        "genespider2_weighted_network.tsv": "61ff3a3ff5363a18e673d07dbae37ba9ffb7da4f7f04f281dc87d40af7aa5caf"
+      },
+      "genes": [
+        "acrR", "araA", "araC", "arcA", "argP", "ascB", "ascG", "asnC", "azuC", "betI", "caiB", "caiT",
+        "chbR", "crp", "csiD", "csiR", "cyoB", "cysB", "cysI", "cytR", "dmsD", "dnaA", "dppA", "dppF",
+        "entB", "exuR", "fabB", "fadD", "fadR", "feaR", "fecE", "fimH", "fis", "fnr", "fucP", "fucR",
+        "fumB", "gabP", "gabT", "gadE", "galR", "galS", "glgP", "glnL", "glpF", "glpR", "glyT", "gntR",
+        "hcp", "hipA", "hybD", "hybE", "hypD", "idnR", "ihfA", "ilvA", "ilvE", "iscR", "lldR", "lsrF",
+        "lsrR", "malI", "malT", "melR", "micF", "modE", "nac", "nagC", "nanK", "nanR", "narJ", "narL",
+        "narP", "nrfG", "nuoJ", "ompR", "osmE", "paaI", "paaX", "phnK", "phnN", "phoB", "pitB", "pstB",
+        "rbsR", "rhaR", "rhaS", "rpmC", "srlR", "ssuB", "sucA", "sufD", "tdcB", "tnaA", "tpx", "uxuR",
+        "ybdZ", "yiaJ", "ynfE", "zraR"
+      ]
+    },
+    {
+      "id": "final_ecoli_100_d2",
+      "size": 100,
+      "family": "ecoli",
+      "draw": 2,
+      "seed": 1270393535,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "566128b9b60cf27ce3892f4a3f94569d939eea4ee8bd2b4fcd4de64beee241cf",
+      "files": {
+        "native/final_ecoli_100_d2.xml": "10ac55af4f51cb2667bba098177e697a924dc240a6d799629b702812677d9ed2",
+        "shared_signed_network.tsv": "f8b6c4387ea5f621b0f3bfa78c91bcc9e19fe63ba98de1b2c6dcbaaa8b2ad0a5",
+        "genespider2_weighted_network.tsv": "9ea68128d7acda7274ab9aed021d1e9a1e42a48dbeaab9e60a0541f2ecfe544f"
+      },
+      "genes": [
+        "actP", "adiA", "adiY", "aldB", "araG", "araJ", "arcA", "argR", "artI", "artM", "ascF", "ascG",
+        "baeR", "betI", "bglB", "bglG", "caiF", "chbR", "cpxP", "cpxR", "crp", "csgD", "cytR", "dadA",
+        "dcuR", "dgsA", "dps", "edd", "entA", "envY", "exuR", "fbaA", "flhD", "focA", "fruR", "fucA",
+        "fucU", "fur", "gadX", "glcC", "glnG", "glpR", "glpT", "gltA", "gntR", "gutM", "hlpA", "hpt",
+        "htrE", "hupA", "hupB", "hyfR", "ihfA", "ihfB", "ileT", "ilvD", "ilvM", "livH", "lldD", "lldR",
+        "lpd", "lrp", "lsrR", "malI", "malK", "marR", "melR", "metJ", "metR", "modE", "nagD", "narP",
+        "nirD", "nuoA", "nuoI", "nuoM", "ompC", "oppB", "paaD", "paaX", "pdhR", "phoB", "prpR", "puuD",
+        "qseB", "rbsD", "rbsR", "rcnR", "rplD", "rrlA", "serA", "stpA", "tdcF", "truB", "ugpB", "uxuR",
+        "xylR", "ybdN", "yhdX", "zraR"
+      ]
+    },
+    {
+      "id": "final_ecoli_100_d3",
+      "size": 100,
+      "family": "ecoli",
+      "draw": 3,
+      "seed": 1611116788,
+      "parent": "connected",
+      "stride": 3,
+      "edge_sha256": "e8ef76bdc2e23314d9164acf97559671a634eb1143ae99e2079abcee8b8e0b80",
+      "files": {
+        "native/final_ecoli_100_d3.xml": "7219ecf9c0681a1fafdc28b15e89e7d680c4d20bbc24f07f287eaaeee9be7b4a",
+        "shared_signed_network.tsv": "38132207a33a7d9e8c5252de7cda0b0dc41334354137156ee95cb9d3b59c31a6",
+        "genespider2_weighted_network.tsv": "c044c982e1c93d924f13e8e3f10b405a947247e1882b9a96f426941160679c84"
+      },
+      "genes": [
+        "ackA", "acrF", "alaV", "aldA", "appY", "arcA", "argP", "argR", "artJ", "asnC", "betI", "betT",
+        "bglJ", "bolA", "cbl", "cdaR", "codA", "codB", "cspA", "cyoE", "cysB", "cysH", "cysW", "dcuR",
+        "dnaA", "dsdC", "dsdX", "eda", "evgA", "feaR", "fimF", "flhC", "flhD", "fruR", "fumC", "gadE",
+        "garR", "glcC", "glcG", "glmY", "glrR", "gltF", "hemA", "hipB", "hlyE", "hns", "hyaD", "hybA",
+        "hycA", "icd", "ihfA", "kdgR", "lldR", "marR", "mioC", "mtlR", "nac", "narL", "narP", "nhaR",
+        "nikR", "nirC", "norR", "nrdB", "nrdR", "nsrR", "nuoF", "oppF", "osmC", "paaK", "paaX", "pdhR",
+        "phoP", "pspB", "purR", "rffH", "rpoS", "rrfG", "rrlC", "rutE", "sdhA", "slyA", "soxS", "srlE",
+        "srlR", "stpA", "sucD", "tadA", "tauD", "tdcA", "ubiX", "ulaD", "ulaR", "wzxE", "xylR", "ydhY",
+        "yiaJ", "yiaM", "yjbG", "yjjP"
+      ]
+    },
+    {
+      "id": "final_ecoli_100_d4",
+      "size": 100,
+      "family": "ecoli",
+      "draw": 4,
+      "seed": 62746237,
+      "parent": "connected",
+      "stride": 3,
+      "edge_sha256": "20cd416c86223afb022f55d88209052e85f76a703be2a02e253c1394e7878355",
+      "files": {
+        "native/final_ecoli_100_d4.xml": "c4331b3e20efdb2a5b3d0d3a87f73af74423a709307ceaa3960d32bcca9037b6",
+        "shared_signed_network.tsv": "8b612284d5b67cd1a0b83007771d1e64d8a9cfb4b36d5d274463b7ed59e068b4",
+        "genespider2_weighted_network.tsv": "e469b24412baf21a6a8b21deabaa88bd6dcdef8337bd81329d9928da68a6cf23"
+      },
+      "genes": [
+        "acrE", "ahpF", "alaT", "appC", "appY", "argP", "asnC", "bcsB", "bglJ", "cadC", "caiF", "cbl",
+        "cheB", "cheR", "cheZ", "cueR", "dcuC", "dcuR", "dnaA", "dsdC", "entE", "feaR", "feoA", "feoB",
+        "fhuB", "fimG", "fis", "fixC", "flhC", "fnr", "ftnA", "fur", "gcvA", "gcvP", "glcC", "glnG",
+        "glyA", "gor", "hdfR", "hemH", "hipB", "hlyE", "hupA", "hupB", "hyaE", "hyaF", "hyfD", "ihfB",
+        "iscR", "leuO", "lrhA", "metA", "metC", "metJ", "metR", "moaC", "modE", "mtlR", "nac", "narP",
+        "nikR", "norR", "norV", "nsrR", "oppC", "oxyR", "paaF", "paaX", "phoA", "phoB", "prfA", "pstA",
+        "purR", "puuA", "qseB", "rcnR", "rffM", "rpsJ", "rrlC", "rrlH", "rrsH", "scpA", "slyA", "sucD",
+        "sufA", "sufE", "trmD", "uof", "uspB", "wzyE", "xdhC", "ydhU", "yeaR", "yeiB", "yhhY", "yiaJ",
+        "yjcH", "ynfF", "ynfG", "yoaG"
+      ]
+    },
+    {
+      "id": "final_yeast_100_d1",
+      "size": 100,
+      "family": "yeast",
+      "draw": 1,
+      "seed": 391030065,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "d41f89055166b30fb8592f6c738466ffc65ffb6d60123763c0ee72b5c14090bd",
+      "files": {
+        "native/final_yeast_100_d1-1.xml": "9898d0c21557ffb6fb913d988f652dfcde37bc9ce8ca6270a1f1712f84c17ec1",
+        "shared_signed_network.tsv": "2938f0cc2308c7d48c7552e97ca40975fc18557eae23c1d0b061b793b0bb358b",
+        "genespider2_weighted_network.tsv": "58a79b9fba967f2893a7ca553e54fcec6e2359d81bf123f72497864e08601d52"
+      }
+    },
+    {
+      "id": "final_yeast_100_d2",
+      "size": 100,
+      "family": "yeast",
+      "draw": 2,
+      "seed": 1481582176,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "1ea9bd7b8508be014f7f5f532383bdc0eb5ba518c9db2173e87509c6387c2e42",
+      "files": {
+        "native/final_yeast_100_d2-1.xml": "01641e7e8e436bfe1ade80870fbded130ea7dacb8c756229edbdb6e409677606",
+        "shared_signed_network.tsv": "db365d535f752da296e68505e295ca6a428dac6642817bea2eb69bab07d1b3a6",
+        "genespider2_weighted_network.tsv": "01b0b2495ae029fe9bf8b11b1b021f56ad55c815c26dd7839b548a2d45d85f68"
+      }
+    },
+    {
+      "id": "final_yeast_100_d3",
+      "size": 100,
+      "family": "yeast",
+      "draw": 3,
+      "seed": 2042185391,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "f8fbe4d59282b4e5e3702357631b29008ccb3acf4b621283382e2b1d3869f4e2",
+      "files": {
+        "native/final_yeast_100_d3-1.xml": "f996228a201bbc86ef0eac2d5a095b7ba3765fd8b247e5d5029d8ae1dcc49342",
+        "shared_signed_network.tsv": "592a6b3ab2532d68b10929dc83a941c2d09ff9a75e78fb77a75d8963d88014be",
+        "genespider2_weighted_network.tsv": "45fab48a755d4221ed2b4d9e0c527b410a7a02001b5b181b6101412d23c5ed67"
+      }
+    },
+    {
+      "id": "final_yeast_100_d4",
+      "size": 100,
+      "family": "yeast",
+      "draw": 4,
+      "seed": 294489565,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "d88e37c723eee34fd0438aadc4546e1a98366cb2776265ef15496998894dda46",
+      "files": {
+        "native/final_yeast_100_d4-1.xml": "69418c445c9bd91276998e4e22130b35fc27004b195b0915b18dffd1989a2675",
+        "shared_signed_network.tsv": "4da7b7f0550423895affb1b01bad00197908a86c7ea9a99be9acbbceed0d32d3",
+        "genespider2_weighted_network.tsv": "6531f63f623655389ba03e1d6ac5707ee6f2764181137e31b356cbc96e297114"
+      }
+    },
+    {
+      "id": "final_fflatt_100_d1",
+      "size": 100,
+      "family": "fflatt",
+      "draw": 1,
+      "seed": 1520282384,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "971a15455f2c924874e38049a70a5c920c14f60dcd78125d371ed59406da3c9d",
+      "files": {
+        "native/final_fflatt_100_d1.xml": "59b2b747d563346174df2ef77fc378beb247e752a512c00e17f07e2d1d1bc1e1",
+        "shared_signed_network.tsv": "189f1f1bd6f6b7533c758bc47cdd92abeb6398c217c7b61961fdaaf0a889fe92",
+        "genespider2_weighted_network.tsv": "ecb6dac823f7209f909ee5f45ca127b3a0e431cfa39ee546b94f3569e567e0e1"
+      }
+    },
+    {
+      "id": "final_fflatt_100_d2",
+      "size": 100,
+      "family": "fflatt",
+      "draw": 2,
+      "seed": 1213193676,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "57f35a45db28288d2a03de133b3d4bf4f6a13a2ff8cace510467e86cc9ce8854",
+      "files": {
+        "native/final_fflatt_100_d2.xml": "4d62b986e0da3a913dc06460fdeb69f33d36c28eb4a58ee2db89b1742f8f489a",
+        "shared_signed_network.tsv": "01477df5cdd728435212e7cae4351e11f69b32b4b081654f28268644072b5036",
+        "genespider2_weighted_network.tsv": "fc02e043a1ca598fff9510566b8b07dedc2a287ccb162e79aa3d626a33d55c28"
+      }
+    },
+    {
+      "id": "final_fflatt_100_d3",
+      "size": 100,
+      "family": "fflatt",
+      "draw": 3,
+      "seed": 1896864405,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "d6a9915b57ffb80681afe4bcc9b7a10fa1aa89a0d37ef3ce2f3b53b4d69632ec",
+      "files": {
+        "native/final_fflatt_100_d3.xml": "c8244d34528df4efc05833d3f842a90996ab4220c0b19041153f24b06197e7f6",
+        "shared_signed_network.tsv": "9192347ec2477397f8df35b1ce20b288ae6af3f746e31db7e7dee64e7aeb2919",
+        "genespider2_weighted_network.tsv": "ad3212820618c4912da0171ac28c8d7eadee1d177739a4a40632e95431dbeddc"
+      }
+    },
+    {
+      "id": "final_fflatt_100_d4",
+      "size": 100,
+      "family": "fflatt",
+      "draw": 4,
+      "seed": 1912405450,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "db53ad9bfccb06a238fae322efb562c74e1045e184d01583c55dc58b8399faf2",
+      "files": {
+        "native/final_fflatt_100_d4.xml": "9aabbd24022a5774ccb2ae7260288a13f8e650113cd44d0915b12d5eb8f07636",
+        "shared_signed_network.tsv": "ddb9281d3b4ae012676c05104efb3881f8b73f8a5e9bc5457ff13666cd265e17",
+        "genespider2_weighted_network.tsv": "ae19fd03bcaf4c3ef673baec629656dd6149e5a016991703cf30da39bd8ed05d"
+      }
+    },
+    {
+      "id": "final_ecoli_200_d1",
+      "size": 200,
+      "family": "ecoli",
+      "draw": 1,
+      "seed": 122960219,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "047373a0e624976f6901ef1195ffcd576d25f8b38ed2e13ea0f23ef80fdf9271",
+      "files": {
+        "native/final_ecoli_200_d1.xml": "323fa6b2c1d760bb741d6df084bc719308d20ecf4319c08c5f9f665348320865",
+        "shared_signed_network.tsv": "4092e8203e1cb11db91909fb27d9a1a4ffe8ce7e2924fc50272b596b6cdaefd4",
+        "genespider2_weighted_network.tsv": "f118facebb77d3ef1aa3a354417a827ffcbec2d300af65ab9f89be0b34ed27cd"
+      },
+      "genes": [
+        "acnB", "ahpC", "appY", "araC", "araF", "arcA", "argH", "argR", "aroA", "ascG", "asnC", "asr",
+        "betI", "bglF", "bglJ", "cadC", "caiC", "caiF", "cbl", "chbA", "chbC", "chbF", "chbR", "chpA",
+        "crp", "csiE", "cstA", "cueR", "cydC", "cydD", "cysB", "cysU", "cytR", "dctA", "dcuR", "ddlB",
+        "deoA", "deoB", "deoR", "dgsA", "dinF", "dinG", "dnaA", "dsdC", "exuR", "exuT", "fadB", "fadJ",
+        "fadR", "fepA", "fiu", "flhC", "flhD", "flu", "frdA", "frdB", "frdC", "fruR", "ftsI", "ftsK",
+        "fucI", "fucR", "gadE", "galR", "galS", "galT", "gapA", "gatC", "gatR_1", "gatR_2", "glcC",
+        "glcD", "glgC", "glnG", "glpD", "glpK", "glpR", "glpX", "gntK", "gntR", "gntT", "gntX", "guaB",
+        "gutM", "hofN", "hokE", "hupA", "hyaC", "hybC", "hycD", "hycG", "hyfR", "hypB", "hypE", "iclR",
+        "idnR", "ilvB", "iscR", "leuB", "leuO", "lexA", "lldR", "lpxC", "lsrR", "malF", "malG", "malI",
+        "malQ", "malT", "maoC", "marA", "melR", "metJ", "metR", "metY", "mhpB", "mhpR", "moaB", "moaD",
+        "modE", "mtlR", "murD", "murF", "murP", "nac", "nadR", "nagA", "nagC", "nanR", "nanT", "narP",
+        "nfuA", "norR", "nrdB", "nrdR", "nsrR", "nuoK", "oppD", "oxyR", "paaC", "paaX", "pdhR", "pgk",
+        "pheM", "phnL", "phoB", "phoP", "pncB", "prpB", "prpR", "ptsG", "purK", "purR", "putA", "qseB",
+        "rbfA", "rbsA", "rbsR", "recA", "recN", "recX", "rfe", "rffG", "rhaA", "rhaB", "rhaR", "rhaT",
+        "rplP", "rpsO", "rpsU", "rstA", "ruvB", "sbmC", "sfsA", "soxR", "soxS", "srlE", "stpA", "sufS",
+        "tdcA", "tdcR", "tnaC", "torR", "treR", "ubiC", "ugpA", "umuD", "uvrC", "uvrY", "uxaA", "uxuR",
+        "ychH", "ydeO", "ydjM", "yebG", "yeiA", "yhcH", "yiaJ", "zraR", "zraS"
+      ]
+    },
+    {
+      "id": "final_ecoli_200_d2",
+      "size": 200,
+      "family": "ecoli",
+      "draw": 2,
+      "seed": 1166208716,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "785d922b4a7a95f3af494de912251fd54240df644b1f79c5a5a2bd601369b648",
+      "files": {
+        "native/final_ecoli_200_d2.xml": "33ecaea38570bac0bf1442c2d75c351318c44ed0f4d8754d37f72690edf3ba51",
+        "shared_signed_network.tsv": "682208da684b88a5a89f643aed99f6dfc58f4040bf274f9ad44c50c88176b4c9",
+        "genespider2_weighted_network.tsv": "15bdf5fcb5ea4a7bc30e81aa13c41fc944944a389abc2ddc5fa6a32de3f7f658"
+      },
+      "genes": [
+        "aceB", "acnA", "acs", "agaR", "agp", "appY", "araB", "araC", "arcA", "argP", "argR", "aroP",
+        "ascG", "asnA", "asnC", "asr", "bacA", "baeR", "betA", "betB", "betI", "bglJ", "bolA", "cadA",
+        "cadC", "caiE", "cbl", "ccmA", "cdd", "chbB", "chbR", "cpxR", "crp", "csgA", "csgF", "cspA",
+        "cspD", "cyaA", "cysB", "cysJ", "cytR", "dcuR", "dgsA", "dmsA", "dnaA", "dsbA", "dsdA", "dsdC",
+        "dsdX", "dusB", "eno", "entF", "exuR", "fabA", "fabR", "fadA", "fadE", "fadL", "fadR", "fdhF",
+        "feaR", "fhlA", "fixC", "fliA", "fruA", "fruK", "fruR", "fucR", "gadW", "galR", "galS", "gatA",
+        "gatR_1", "gatR_2", "gatY", "gcvA", "gcvT", "gdhA", "glcA", "glcC", "glcE", "glnA", "glnH",
+        "glpR", "gltT", "gntR", "gspO", "gutM", "hemF", "hipA", "hipB", "hisM", "hns", "hofP", "htpG",
+        "hupA", "hupB", "hyfD", "hyfR", "hypF", "iclR", "idnR", "idnT", "ihfA", "ilvH", "ilvI", "iraM",
+        "iscA", "iscR", "kbaZ", "lacI", "lacY", "lldR", "lrp", "lsrA", "lsrC", "lsrR", "malI", "malP",
+        "malT", "manZ", "marB", "mdtC", "melR", "metJ", "metK", "metR", "mglB", "mhpA", "mhpD", "mhpR",
+        "modE", "mpl", "mtlA", "mtlR", "nac", "napC", "napF", "narI", "narL", "narP", "nhaR", "nikR",
+        "nrfD", "nuoE", "nuoN", "osmY", "oxyR", "paaA", "paaG", "paaX", "pdhR", "phnC", "phoB", "pnp",
+        "ppdD", "ppsA", "proX", "prpR", "psd", "pstC", "purD", "purR", "puuR", "rbsK", "rbsR", "rcsB",
+        "rhaS", "rob", "rpsC", "rpsJ", "rrlG", "rtcA", "rtcR", "rutB", "rutR", "sdhB", "sgbE", "soxR",
+        "soxS", "spf", "stpA", "sufB", "tam", "tdcA", "tdcR", "tyrR", "ubiA", "ugpE", "ung", "uspA",
+        "uxuR", "yahA", "ydhV", "ydhX", "yeiT", "yiaO", "yjcH", "ynfK", "zraR"
+      ]
+    },
+    {
+      "id": "final_ecoli_200_d3",
+      "size": 200,
+      "family": "ecoli",
+      "draw": 3,
+      "seed": 465404795,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "b210955e595e31d7de4c116a45b288b7c01057a3bb0bf7496dc04a116d9eb69e",
+      "files": {
+        "native/final_ecoli_200_d3.xml": "b95283d9f3eaeb5a4f1d14fa11e40a89a3dd970e4a9a5fa835c57fb7449df4c5",
+        "shared_signed_network.tsv": "5ea478a63e5e78c2d740cb98ee65d5bf61a0fa09c965519a308f8439bd5b8a11",
+        "genespider2_weighted_network.tsv": "054d1b13af87c39e8e7e96d98e1ac9edcf5ffa5eb192d637282fadbe29586484"
+      },
+      "genes": [
+        "aceA", "aceE", "amiA", "appA", "appY", "araC", "araD", "araE", "arcA", "argP", "argR", "artP",
+        "ascG", "aspA", "astC", "astE", "atoA", "atoC", "baeR", "betI", "bglJ", "bolA", "cadC", "caiD",
+        "caiF", "cbl", "chbR", "cirA", "cpxR", "crp", "cspA", "cyaR", "cydB", "cyoC", "cysB", "cytR",
+        "dcuR", "degP", "deoR", "dgsA", "dmsB", "dnaA", "dsdC", "ecpD", "epd", "evgA", "exuR", "fadI",
+        "fadR", "feaR", "fecB", "fecR", "fhuE", "fimB", "fimE", "fixX", "fruR", "fucR", "fur", "gadW",
+        "galR", "galS", "glcC", "glcF", "glgA", "glnB", "glnG", "glnH", "glnQ", "glpB", "glpR", "gntR",
+        "gpmA", "grpE", "gspB", "gutM", "hchA", "hcr", "hipA", "hipB", "hisJ", "hns", "hofM", "hofO",
+        "hupA", "hupB", "hybB", "hycI", "hyfH", "hyfI", "hyfR", "iclR", "idnO", "idnR", "ihfB", "ileU",
+        "kbl", "lamB", "leuO", "lldR", "lrhA", "lrp", "lsrB", "lsrG", "lsrR", "malI", "malT", "malX",
+        "manY", "marR", "mdtF", "melA", "melR", "metJ", "metR", "mhpT", "modE", "moeA", "moeB", "mtlR",
+        "nac", "nagC", "nanR", "narI", "narL", "narP", "nemR", "nhaR", "nikR", "norR", "norW", "nrdA",
+        "nrdF", "nrdR", "nrfA", "nrfD", "nsrR", "ompR", "osmE", "oxyR", "pdhR", "pgaD", "phnH", "phnO",
+        "phoB", "phoP", "ppiA", "proP", "prpR", "pspA", "pspD", "pspF", "ptsH", "purR", "rbsC", "rbsR",
+        "rcnR", "rcsA", "rcsB", "rhaR", "rhaS", "rimP", "rob", "rrsB", "rrsC", "rrsG", "rstA", "rutF",
+        "rutR", "serC", "smtA", "soxR", "soxS", "ssuB", "stpA", "tdcA", "tdcR", "thrS", "tnaB", "torR",
+        "treR", "tsx", "ubiG", "uidC", "uidR", "ulaG", "ulaR", "uspA", "uxuR", "xylR", "ydeH", "ydeO",
+        "yiaJ", "yiaL", "yibD", "yjbG", "yjeV", "ytfE", "zraP", "zraR"
+      ]
+    },
+    {
+      "id": "final_ecoli_200_d4",
+      "size": 200,
+      "family": "ecoli",
+      "draw": 4,
+      "seed": 1470235353,
+      "parent": "connected",
+      "stride": 4,
+      "edge_sha256": "0c5d706b3e04cb1e2454b32c64826215073c43cbdac2f93be7e38d0c1fc34cc3",
+      "files": {
+        "native/final_ecoli_200_d4.xml": "1ee0a43ea83368fb6f0d0f858c4e13549debef2cb2aea3a38b61235ea54357f4",
+        "shared_signed_network.tsv": "18e1693bf9e9cd866c7ed446b08e0e71ff4d0ce8f4c023e1fc95ac0b084d7250",
+        "genespider2_weighted_network.tsv": "459fe2863daa35972556800cd583cc77bb44bcc63cfbda876d18e1a1e7e33d75"
+      },
+      "genes": [
+        "acrF", "alaT", "alaU", "appB", "appY", "araC", "argG", "argP", "argR", "aroG", "ascG", "asnC",
+        "astA", "baeR", "bglJ", "cadC", "caiF", "carB", "cbl", "chbG", "chbR", "chpR", "cpxR", "crp",
+        "crr", "csgG", "cvpA", "cydC", "cyoA", "cyoE", "cysB", "cysM", "cytR", "dcuR", "ddpB", "ddpC",
+        "deoR", "dgsA", "dksA", "dnaA", "dps", "emrY", "entC", "entD", "evgA", "exuR", "fadD", "fadR",
+        "fdnG", "feaR", "fecC", "fecD", "fhlA", "fimC", "fimG", "flhD", "fliE", "fliJ", "fliO", "fnr",
+        "fruR", "fucA", "fucK", "fucR", "gadW", "galP", "galR", "galS", "garP", "gatR_1", "gatR_2",
+        "gatZ", "gcvA", "gcvH", "glcB", "glcC", "glgS", "glnG", "glnP", "glpR", "gltD", "gntR", "grxA",
+        "gutM", "hdfR", "hemA", "hha", "hofC", "hupA", "hupB", "hyaB", "hyfC", "iclR", "idnR", "ileV",
+        "infB", "iscR", "leuO", "lrhA", "lrp", "lsrR", "malI", "malT", "manX", "marR", "melR", "modE",
+        "mtlD", "mzrA", "nac", "nagB", "nagC", "nagE", "nanC", "nanM", "nanR", "narG", "narH", "narI",
+        "narP", "nemR", "nikE", "nikR", "nrdD", "nrdE", "nrdR", "nsrR", "nupG", "ompW", "oppD", "oxyR",
+        "pepA", "pflB", "phnJ", "phnM", "phoB", "phoE", "phoR", "ppiD", "prpR", "psiE", "psiF", "purC",
+        "purN", "purR", "putA", "putP", "qseB", "qseC", "rbsR", "rcsA", "rdoA", "rhaR", "rhaS", "rob",
+        "rplD", "rplS", "rplT", "rplW", "rpsI", "rpsQ", "rrlE", "rstA", "rutR", "sdaA", "sdhA", "smpA",
+        "soxR", "soxS", "spy", "srlR", "ssuE", "stpA", "sucC", "tauC", "tdcA", "tdcR", "trxA", "tsr",
+        "ulaA", "ulaC", "ulaE", "ulaR", "uxaB", "uxuR", "xylR", "yccB", "ydeJ", "ydeO", "ydhV", "yeaH",
+        "ygbA", "yiaJ", "yiaK", "yidQ", "ykgR", "yqjI", "zinT", "zraR", "zur"
+      ]
+    },
+    {
+      "id": "final_yeast_200_d1",
+      "size": 200,
+      "family": "yeast",
+      "draw": 1,
+      "seed": 326716885,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "bf86da66f20319426c4f26cb68f73a053d80dd7b862b6a4d2576d375248666f1",
+      "files": {
+        "native/final_yeast_200_d1-1.xml": "091ee4aa9b14bdbf2fe30b17760bf0ed09431b6b1d4434a9dbeb261724dd3faa",
+        "shared_signed_network.tsv": "485fae56c613518a5358dabf60448cf6bc8ab9a95f592ec2f413c30574acb086",
+        "genespider2_weighted_network.tsv": "38eeaccf4e811cec043f6f3c06271e989b32477c8d88276f7824f9cfd64bf3a0"
+      }
+    },
+    {
+      "id": "final_yeast_200_d2",
+      "size": 200,
+      "family": "yeast",
+      "draw": 2,
+      "seed": 1593048837,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "2f6e2f6b3e1c619e9d74d299a2ac7b5ba38d401d9e747bbadf06152d50cc37ed",
+      "files": {
+        "native/final_yeast_200_d2-1.xml": "420ffe93b80eef193a3dd65dceae34a8b7a53312dce84b363a0cbe6a65eb5d8a",
+        "shared_signed_network.tsv": "9f060a2fc36996b7d3cb6cb9caf91b490e92ba901d810bcdaa2cd72693484611",
+        "genespider2_weighted_network.tsv": "e8ed2dad781d8df6f35ce1ad98b6a62c917097a5b51821103d19143b40e8e1ae"
+      }
+    },
+    {
+      "id": "final_yeast_200_d3",
+      "size": 200,
+      "family": "yeast",
+      "draw": 3,
+      "seed": 619115397,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "c8789ab77b7dc26e305cbcae5bd3bce06d53c004bc2afbaece434f8c36f16de1",
+      "files": {
+        "native/final_yeast_200_d3-1.xml": "35cf8380a13b0ea4089f2c1845f4eb81828e64ba92c4d0f609f6e443a89135dd",
+        "shared_signed_network.tsv": "a43937f99c70eaa81f6df2b252ea5a6cf243c153ddfa4e7303845864c9e16d7c",
+        "genespider2_weighted_network.tsv": "ad689ef15dc1c5835157718fc7fd35fa08474ad609cc2f84083e8781a135257e"
+      }
+    },
+    {
+      "id": "final_yeast_200_d4",
+      "size": 200,
+      "family": "yeast",
+      "draw": 4,
+      "seed": 368340271,
+      "parent": "original",
+      "stride": 3,
+      "edge_sha256": "655ecc0d3478021dee021dbd6bc15b464b3904ce95ea69bad99c6bab33ccb0b4",
+      "files": {
+        "native/final_yeast_200_d4-1.xml": "c895bebdfb02e20442e1fed9467a78904e8bb20a2c1f470c7e93f5b0456ae1cc",
+        "shared_signed_network.tsv": "5ca9631a6941c467f6e8db40dfd21d75b8a4541087d14fc9005e20e180b13d9b",
+        "genespider2_weighted_network.tsv": "f78e6452705f589c7ac92bc63d7cf024205201ca7083dbf9cfaeed65a0cf815f"
+      }
+    },
+    {
+      "id": "final_fflatt_200_d1",
+      "size": 200,
+      "family": "fflatt",
+      "draw": 1,
+      "seed": 1559038092,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "f6a8b02c7140fc8a7d3a8dcdf1de313dd9b95c71352f384091ba073106b72ffb",
+      "files": {
+        "native/final_fflatt_200_d1.xml": "ed5bcbf8a8b0327113d28a8f875d740b7027ea3425b394c73c4d62f1153770b7",
+        "shared_signed_network.tsv": "d7090e3e1955c7742ffc8e6f36ecea61e20ed7aeef765ba4bcd4dacad7d80f38",
+        "genespider2_weighted_network.tsv": "53bc5f05203753b963ee3a506827e81e98e95ddd5400c8b0b1195fc8ed00583a"
+      }
+    },
+    {
+      "id": "final_fflatt_200_d2",
+      "size": 200,
+      "family": "fflatt",
+      "draw": 2,
+      "seed": 1997061541,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "6afcdb1394c77cccf1c46f79e3acb3b0a6d000ea0dd9568878fafaba6953636d",
+      "files": {
+        "native/final_fflatt_200_d2.xml": "062ae7a8ff30885fec5d97dd9cf19a7f404bc8596ba469c9980f50c8808821af",
+        "shared_signed_network.tsv": "c4fc024034663d3417844d054cf7cda0682e56112566ce95324205cd93e2466a",
+        "genespider2_weighted_network.tsv": "413fedf4b5ebfeb03eca69bba1c94b968b25c3d4fbf4cc3e4c737097a353eb2a"
+      }
+    },
+    {
+      "id": "final_fflatt_200_d3",
+      "size": 200,
+      "family": "fflatt",
+      "draw": 3,
+      "seed": 359198158,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "18a70c81201673e12ebf5ff731ff48223eb01f752559f86e3775cb787bac849b",
+      "files": {
+        "native/final_fflatt_200_d3.xml": "e26c021905f1888d7b2d839b24feecf17467b72be8173962458bd1391811b458",
+        "shared_signed_network.tsv": "856f0625d7aea538bd875410722657d0b8f905ed1f98c43bcee3ed972436ffa3",
+        "genespider2_weighted_network.tsv": "6f87782a2d80bf9bbba96d1b7d752228f51294617a1e346df338db2b84cf91c1"
+      }
+    },
+    {
+      "id": "final_fflatt_200_d4",
+      "size": 200,
+      "family": "fflatt",
+      "draw": 4,
+      "seed": 240994453,
+      "parent": "original",
+      "stride": 4,
+      "edge_sha256": "2f7677a027ac507d2a9107c863a9256f3553634000e5bcb22a408fd9eac577a2",
+      "files": {
+        "native/final_fflatt_200_d4.xml": "747b7a8631ed40110e3048f6979b7626048093c0318f5df6b6e4a73c97705ffd",
+        "shared_signed_network.tsv": "9a994d0ff16a94b9d3d36b9ebd9992bf1a808b57976eba97e171ff399c439844",
+        "genespider2_weighted_network.tsv": "9c681a022a4362c9c1b4938b92cb9ba492c7c76c0e0488e134e821c05026aa1c"
+      }
+    }
+  ]
+}

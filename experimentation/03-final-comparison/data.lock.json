@@ -1,0 +1,10 @@
+{
+  "views": 864,
+  "sha256": {
+    "expression": "c765497461720ae2ded92fa3bc77dd77a696cc961af2841f3a87ece42af757be",
+    "descriptors": "7234be6aa58f6d257a664252a02b1f775c4ecdc70ee1ffc2c2979deca2500c6f",
+    "regulators": "8ada2b7ed29aa0f4ee7c3bed29217769e82beb2d53c3d4c87b57ca71d16f24a5",
+    "genes": "97196318da8074b0a9f3193ecc46ee47a98fa263dc8a576dc2302b9a3d677c49",
+    "truth_network": "66686b7f0b8a9982a16b44d1f4243bf7ffd5751af67c23ff0bf811036e41581b"
+  }
+}

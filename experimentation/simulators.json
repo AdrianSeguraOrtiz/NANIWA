@@ -1,0 +1,52 @@
+{
+  "scenario": {
+    "schema_version": "1.0",
+    "data_axes": {"measurement": "rna_expression", "resolution": "bulk", "column_kind": "timepoints", "experimental_design": "time_series"},
+    "truth_requirements": {"contexts": ["global"]},
+    "organism": {"taxonomic_group": "synthetic", "ncbi_taxon_id": null},
+    "requested_extras": ["tf_list", "column_descriptors"]
+  },
+  "interventions": {"groups": 6, "targets_per_group": 8},
+  "simulators": {
+    "genenetweaver": {
+      "image": "adriansegura99/simulator_genenetweaver:1.2.0",
+      "image_id": "sha256:1f18674847ccd2c02486fafe85184e95a617d87897f4617e3fab1d5e6bd19804",
+      "input": {"name": "gnw_dynamical_network", "topology_file": "sbml", "format": "xml"},
+      "params": {
+        "network_preset": "custom_xml", "network_name": "$graph_id", "solver": "ode",
+        "expression_variant": "normalized", "time_series_experiment": "dream4_timeseries",
+        "steady_state": {"maxt_ode": 2000},
+        "time_series": {"num_time_series": 6, "maxt": 1000, "dt": 50},
+        "experimental_noise": {"normal": true, "lognormal": true, "microarray": false, "normal_stdev": "$normal_stdev", "lognormal_stdev": "$lognormal_stdev", "normalize_after_adding_noise": false}
+      },
+      "noise": {"low": {"normal_stdev": 0.025, "lognormal_stdev": 0.075}, "high": {"normal_stdev": 0.05, "lognormal_stdev": 0.15}},
+      "native_points": 21, "view_stride": 1
+    },
+    "genespider2": {
+      "image": "adriansegura99/simulator_genespider2:1.2.0",
+      "image_id": "sha256:81627ab46318232e72e75b9c824bfeaeebf794034962b136d1f0695c7d0f4195",
+      "input": {"name": "regulatory_network", "topology_file": "weighted_network", "format": "tsv"},
+      "params": {
+        "network_source": "input_tsv", "num_genes": "$size",
+        "time_series": {"time_points": "$last_step", "observation_steps": "$steps", "input_vectors": "$vectors", "replicates_per_condition": 1, "input_noise_std": "$input_noise_std"}
+      },
+      "noise": {"low": {"input_noise_std": 0.05}, "high": {"input_noise_std": 0.15}},
+      "native_points": 21, "view_stride": 1
+    },
+    "genesnake": {
+      "image": "adriansegura99/simulator_genesnake:1.0.0",
+      "image_id": "sha256:067c3997697a03d5739b68c271a0fe398384713792cf7a0540e3f1f23fed02f7",
+      "input": {"name": "regulatory_network", "topology_file": "shared_network", "format": "tsv"},
+      "params": {
+        "network_source": "input_tsv", "num_genes": "$size", "time_points": 102,
+        "draw_pattern": "linear", "include_control": false,
+        "perturbation": {"scheme": "targeted", "targets": "$targets", "effect": 0.5, "replicates": 1, "noise": 0.0, "sign": -1},
+        "noise_model": "normal", "snr": "$snr",
+        "model_parameters": {"max_rna_exp": {"Emin": 0.1, "Emax": 0.1}, "max_prot_exp": {"Emin": 0.1, "Emax": 0.1}, "lambda_RNA": {"Emin": 0.079, "Emax": 0.081}, "lambda_prot": {"Emin": 0.079, "Emax": 0.081}}
+      },
+      "native_outputs": ["noise_free_expression", "network_matrix", "perturbation_matrix", "model_state"],
+      "noise": {"low": {"snr": 20}, "high": {"snr": 5}},
+      "native_points": 102, "view_stride": 5
+    }
+  }
+}

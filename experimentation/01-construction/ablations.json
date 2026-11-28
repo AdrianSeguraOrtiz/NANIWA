@@ -1,0 +1,56 @@
+{
+  "primary": "naniwa",
+  "path": [
+    "mean_minmax",
+    "family_mean",
+    "marginal_global",
+    "naniwa"
+  ],
+  "controls": [
+    "marginal_full",
+    "joint_full",
+    "flat_joint_global"
+  ],
+  "contrasts": [
+    [
+      "family_vote",
+      "family_mean",
+      "mean_minmax"
+    ],
+    [
+      "temporal_support",
+      "marginal_global",
+      "family_mean"
+    ],
+    [
+      "joint_support",
+      "naniwa",
+      "marginal_global"
+    ],
+    [
+      "overall",
+      "naniwa",
+      "mean_minmax"
+    ],
+    [
+      "family_contribution",
+      "naniwa",
+      "flat_joint_global"
+    ],
+    [
+      "panel_intensity",
+      "naniwa",
+      "joint_full"
+    ],
+    [
+      "marginal_intensity",
+      "marginal_global",
+      "marginal_full"
+    ],
+    [
+      "joint_support_full",
+      "joint_full",
+      "marginal_full"
+    ]
+  ]
+}

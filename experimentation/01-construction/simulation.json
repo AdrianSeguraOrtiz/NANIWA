@@ -1,0 +1,186 @@
+{
+  "topologies": "topologies.json",
+  "profiles": "../simulators.json",
+  "data_lock": "data.lock.json",
+  "design": {
+    "id": "core6x1",
+    "series": [
+      6,
+      3
+    ],
+    "timepoints": [
+      21,
+      11
+    ]
+  },
+  "expected": {
+    "native": 54,
+    "views": 54
+  },
+  "views": [
+    "pb_ecoli_100_d1__genenetweaver__core6x1__low__s6_t11",
+    "pb_ecoli_100_d1__genesnake__core6x1__low__s6_t11",
+    "pb_ecoli_100_d1__genespider2__core6x1__low__s3_t11",
+    "pb_ecoli_100_d2__genenetweaver__core6x1__high__s3_t21",
+    "pb_ecoli_100_d2__genesnake__core6x1__high__s6_t21",
+    "pb_ecoli_100_d2__genespider2__core6x1__high__s3_t21",
+    "pb_ecoli_200_d1__genenetweaver__core6x1__low__s6_t21",
+    "pb_ecoli_200_d1__genesnake__core6x1__low__s3_t21",
+    "pb_ecoli_200_d1__genespider2__core6x1__low__s3_t11",
+    "pb_ecoli_200_d2__genenetweaver__core6x1__low__s6_t21",
+    "pb_ecoli_200_d2__genesnake__core6x1__low__s6_t21",
+    "pb_ecoli_200_d2__genespider2__core6x1__high__s3_t11",
+    "pb_ecoli_30_d1__genenetweaver__core6x1__low__s3_t21",
+    "pb_ecoli_30_d1__genesnake__core6x1__high__s6_t21",
+    "pb_ecoli_30_d1__genespider2__core6x1__high__s3_t21",
+    "pb_ecoli_30_d2__genenetweaver__core6x1__high__s6_t21",
+    "pb_ecoli_30_d2__genesnake__core6x1__high__s6_t11",
+    "pb_ecoli_30_d2__genespider2__core6x1__high__s3_t11",
+    "pb_fflatt_100_d1__genenetweaver__core6x1__low__s6_t11",
+    "pb_fflatt_100_d1__genesnake__core6x1__low__s6_t21",
+    "pb_fflatt_100_d1__genespider2__core6x1__high__s6_t11",
+    "pb_fflatt_100_d2__genenetweaver__core6x1__high__s6_t11",
+    "pb_fflatt_100_d2__genesnake__core6x1__high__s6_t21",
+    "pb_fflatt_100_d2__genespider2__core6x1__high__s6_t11",
+    "pb_fflatt_200_d1__genenetweaver__core6x1__high__s6_t11",
+    "pb_fflatt_200_d1__genesnake__core6x1__low__s6_t21",
+    "pb_fflatt_200_d1__genespider2__core6x1__low__s3_t11",
+    "pb_fflatt_200_d2__genenetweaver__core6x1__low__s6_t11",
+    "pb_fflatt_200_d2__genesnake__core6x1__high__s6_t21",
+    "pb_fflatt_200_d2__genespider2__core6x1__high__s6_t11",
+    "pb_fflatt_30_d1__genenetweaver__core6x1__low__s6_t11",
+    "pb_fflatt_30_d1__genesnake__core6x1__low__s3_t21",
+    "pb_fflatt_30_d1__genespider2__core6x1__high__s3_t21",
+    "pb_fflatt_30_d2__genenetweaver__core6x1__high__s3_t11",
+    "pb_fflatt_30_d2__genesnake__core6x1__low__s3_t11",
+    "pb_fflatt_30_d2__genespider2__core6x1__high__s3_t21",
+    "pb_yeast_100_d1__genenetweaver__core6x1__low__s6_t21",
+    "pb_yeast_100_d1__genesnake__core6x1__low__s3_t11",
+    "pb_yeast_100_d1__genespider2__core6x1__high__s3_t11",
+    "pb_yeast_100_d2__genenetweaver__core6x1__low__s3_t21",
+    "pb_yeast_100_d2__genesnake__core6x1__low__s3_t21",
+    "pb_yeast_100_d2__genespider2__core6x1__high__s3_t21",
+    "pb_yeast_200_d1__genenetweaver__core6x1__low__s6_t21",
+    "pb_yeast_200_d1__genesnake__core6x1__low__s3_t21",
+    "pb_yeast_200_d1__genespider2__core6x1__high__s3_t21",
+    "pb_yeast_200_d2__genenetweaver__core6x1__low__s3_t21",
+    "pb_yeast_200_d2__genesnake__core6x1__low__s6_t11",
+    "pb_yeast_200_d2__genespider2__core6x1__high__s3_t11",
+    "pb_yeast_30_d1__genenetweaver__core6x1__low__s6_t11",
+    "pb_yeast_30_d1__genesnake__core6x1__high__s6_t11",
+    "pb_yeast_30_d1__genespider2__core6x1__high__s3_t11",
+    "pb_yeast_30_d2__genenetweaver__core6x1__low__s3_t11",
+    "pb_yeast_30_d2__genesnake__core6x1__high__s3_t11",
+    "pb_yeast_30_d2__genespider2__core6x1__high__s6_t21"
+  ],
+  "seeds": {
+    "pb_ecoli_30_d1": {
+      "interventions": 1089800478,
+      "genenetweaver": 722603418,
+      "genesnake": 1534130811,
+      "genespider2": 1944550873
+    },
+    "pb_ecoli_30_d2": {
+      "interventions": 357268856,
+      "genenetweaver": 811961686,
+      "genesnake": 582971618,
+      "genespider2": 1364612036
+    },
+    "pb_yeast_30_d1": {
+      "interventions": 994306615,
+      "genenetweaver": 1855416952,
+      "genesnake": 1177116305,
+      "genespider2": 1826398295
+    },
+    "pb_yeast_30_d2": {
+      "interventions": 1550333024,
+      "genenetweaver": 1839887263,
+      "genesnake": 1808973569,
+      "genespider2": 947679710
+    },
+    "pb_fflatt_30_d1": {
+      "interventions": 719009533,
+      "genenetweaver": 936115807,
+      "genesnake": 579693936,
+      "genespider2": 856575515
+    },
+    "pb_fflatt_30_d2": {
+      "interventions": 1995373288,
+      "genenetweaver": 1994131592,
+      "genesnake": 363570115,
+      "genespider2": 787942586
+    },
+    "pb_ecoli_100_d1": {
+      "interventions": 1840520242,
+      "genenetweaver": 922745608,
+      "genesnake": 103408682,
+      "genespider2": 288659131
+    },
+    "pb_ecoli_100_d2": {
+      "interventions": 1536876833,
+      "genenetweaver": 777497298,
+      "genesnake": 1677346166,
+      "genespider2": 605258435
+    },
+    "pb_yeast_100_d1": {
+      "interventions": 1696251923,
+      "genenetweaver": 482289441,
+      "genesnake": 1259755583,
+      "genespider2": 873771889
+    },
+    "pb_yeast_100_d2": {
+      "interventions": 1548828480,
+      "genenetweaver": 53423663,
+      "genesnake": 1182022451,
+      "genespider2": 830759684
+    },
+    "pb_fflatt_100_d1": {
+      "interventions": 134666049,
+      "genenetweaver": 909195038,
+      "genesnake": 1594280975,
+      "genespider2": 280656605
+    },
+    "pb_fflatt_100_d2": {
+      "interventions": 890532948,
+      "genenetweaver": 558288733,
+      "genesnake": 1144962131,
+      "genespider2": 593783167
+    },
+    "pb_ecoli_200_d1": {
+      "interventions": 69569607,
+      "genenetweaver": 183040534,
+      "genesnake": 872845178,
+      "genespider2": 346281486
+    },
+    "pb_ecoli_200_d2": {
+      "interventions": 48489305,
+      "genenetweaver": 1267311437,
+      "genesnake": 570875303,
+      "genespider2": 1633573523
+    },
+    "pb_yeast_200_d1": {
+      "interventions": 970434382,
+      "genenetweaver": 1312912446,
+      "genesnake": 448963210,
+      "genespider2": 882387475
+    },
+    "pb_yeast_200_d2": {
+      "interventions": 307879744,
+      "genenetweaver": 461316662,
+      "genesnake": 1476975603,
+      "genespider2": 2098606383
+    },
+    "pb_fflatt_200_d1": {
+      "interventions": 1417968307,
+      "genenetweaver": 1051925620,
+      "genesnake": 1918007090,
+      "genespider2": 1243557309
+    },
+    "pb_fflatt_200_d2": {
+      "interventions": 1750442090,
+      "genenetweaver": 1037344898,
+      "genesnake": 1339422169,
+      "genespider2": 61223086
+    }
+  }
+}
